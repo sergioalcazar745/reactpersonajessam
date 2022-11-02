@@ -29,6 +29,7 @@ export default class Router extends Component {
                     <Route path='/modificar' element={<ModificarPersonaje/>}/>
                     <Route path='/serie/:id' element={<GetParamSerie/>}/>
                     <Route path='/personajes/:id' element={<GetParamPersonaje/>}/>
+                    <Route path='*' element={<Home/>}/>
                 </Routes>
             </BrowserRouter>
         )
