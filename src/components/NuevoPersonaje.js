@@ -57,7 +57,7 @@ export default class NuevoPersonaje extends Component {
 
         return (
             <div className='container'>
-                <h1>Nuevo Personaje</h1>
+                <h1 className='mt-3'>Nuevo Personaje</h1>
                 <form onSubmit={this.nuevoPersonaje}>
                     <div className='mt-3'>
                         <label className='form-label'>Nombre</label>
@@ -68,7 +68,7 @@ export default class NuevoPersonaje extends Component {
                         <input type="text" className='form-control' ref={this.imagen}/>
                     </div>
                     <div className='mt-3'>
-                        <label>Seleciona la serie</label>
+                        <label>Selecciona la serie</label>
                         <select className="form-select" ref={this.selectSerie}>
                             {
                                 this.state.status&&

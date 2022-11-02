@@ -96,7 +96,7 @@ export default class ModificarPersonaje extends Component {
 
         return (
             <div className='container'>
-                <h1>Modificar personaje</h1>
+                <h1 className='mt-3'>Modificar personaje</h1>
                 <form onSubmit={this.modificarPersonaje}>
                     <div className='mt-3'>
                         <label>Seleciona una serie</label>
